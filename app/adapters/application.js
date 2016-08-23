@@ -6,7 +6,7 @@ export default DS.RESTAdapter.extend({
   urlForQueryRecord(query, modelName) {
     switch(modelName) {
       case 'repo':
-        return `https://api.github.com/repos/${query.orgId}/${query.repoId}?access_token=99d4a35f7c58ecf4bacf8a730206869a6c92c4cf`;
+        return `https://api.github.com/repos/${query.orgId}/${query.repoId}?access_token=1b4c5fd1b62f028bcf54ecc368f8f75a2c21f7b7`;
       default:
         return this._super(...arguments);
     }
